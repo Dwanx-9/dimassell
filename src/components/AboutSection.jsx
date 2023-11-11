@@ -61,14 +61,19 @@ const AboutSection = () => {
 
      <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 justify-self-end py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/image/cat1.png" type="image/webp" alt="png" width={500} height={500} className="md:animate-pulse float-left"></Image>
+        <Image src="/image/Bot.png" type="image/webp" alt="png" width={500} height={500} className="md:animate-pulse float-left "></Image>
         <div className="mt-4 md:mt-0 text-left justify-items-center flex-cols-2 h-full">
-          <h2 className="text-4xl font-bold text-primary-500 mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+        <div className="border-b-2 border-primary-500/50 ">
+          <h2 className="text-4xl font-bold text-center text-primary-500 mb-3">About Me</h2>
+          </div>
+          <p className=" text-base tracking-wide mt-1 p-2 lg:text-lg">
                      I started studying blockchain technology from 2017, and started focusing on social media specialist in the crypto community, 
                      I am very enthusiastic about crypto.
                  </p>
+                
+                    
             <div className="flex flex-row justify-start mt-8">
+            <div class="border-t-2 border-primary-500/50 mt-2">  
                 <TabButton 
                 selecTab={() => handleTabChange("skills")} 
                 active={tab === "skills"}
@@ -92,8 +97,14 @@ const AboutSection = () => {
                     {""}
                     Hobby{""}
                 </TabButton>
+                <div class="border-b-2 border-primary-500/50 mt-2"></div>
             </div>
-            <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
+            </div>
+            
+            <div className="mt-8 mb-2">{TAB_DATA.find((t) => t.id === tab).content}
+            <div class="border-b-2 border-primary-500/50 mt-2"></div>
+            </div>
+
         </div>
     </div>
     </section>
