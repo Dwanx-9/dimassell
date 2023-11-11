@@ -1,9 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
-import navIcon1 from "../../public/pen-nav.svg"
-import logo from "../../public/global-nav.svg"
-import mailNav from "../../public/mail-nav.svg"
-import navIcon2 from "../../public/ux-nav.svg"
-import navIcon3 from "../../public/marketing-nav.svg"
 
 export const FooterSection = () => {
     return (
