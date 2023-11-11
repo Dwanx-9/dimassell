@@ -29,11 +29,14 @@ export const FooterSection = () => {
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-primary-500">Follow us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
+                      <li class="mb-1">
                           <a href="https://github.com/Dwanx-9" class="hover:underline ">Github</a>
                       </li>
                       <li>
                           <a href="https://twitter.com/0xorgbwh" class="hover:underline">Twitter</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://youtube.com/@Dx-1-node" class="hover:underline ">Youtube</a>
                       </li>
                   </ul>
               </div>
