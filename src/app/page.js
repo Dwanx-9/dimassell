@@ -10,19 +10,20 @@ import SplineAnimation from '@/components/SplineAnimation';
 import Exprience from '@/components/Exprience';
 import ProfileSection from '@/components/ProfileSection';
 import MessageSection from '@/components/MessageSelection';
+import { FooterSection } from '@/components/FooterSection';
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="bg-black scroll-smooth focus:scroll-auto">
       <div>
       <Navbar />
       <SplineAnimation />
-      <AchievementsSection />
       
       </div>
 
      <div class='container mt-24 mx-auto px-12 py-4 '>
      <HeroSection />
+     <AchievementsSection />
      <AboutSection />
      <div className=' flex justify-center' >
      <MessageSection />
@@ -30,7 +31,9 @@ export default function Home() {
      <Exprience  />
      <Project />
      <EmailSection />
-     <Footer />
+     <div className=''>
+     <FooterSection />
+     </div>
     </div>
     
     
