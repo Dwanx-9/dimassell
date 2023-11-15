@@ -35,19 +35,22 @@ export const FooterSection = () => {
                       <li>
                           <a href="https://twitter.com/0xorgbwh" class="hover:underline">Twitter</a>
                       </li>
-                      <li class="mb-4">
+                      <li class="mb-2">
                           <a href="https://youtube.com/@Dx-1-node" class="hover:underline ">Youtube</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-primary-500">Legal</h2>
+                  <h2 class="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-primary-500">Legal</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
                       </li>
                       <li>
                           <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                      </li>
+                        <li>
+                          <a href="https://dx1node.gitbook.io/dx-1node/" class="hover:underline">Docs</a>
                       </li>
                   </ul>
               </div>
