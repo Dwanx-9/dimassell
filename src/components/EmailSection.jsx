@@ -74,7 +74,7 @@ import Image from "next/image";
           </span>
           <div class="mb-6">
             <button
-              type="submit"
+              type="input"
               class="bg-[#121212]  hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full transition duration-700 ease-in-out"
             >
               {" "}
