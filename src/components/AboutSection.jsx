@@ -23,9 +23,9 @@ const TAB_DATA = [
       id: "exprience",
       content: (
         <ul className="list-disc pl-2">
-          <li>Full-stack</li>
           <li>Social Media Specialist</li>
-          <li>University of California</li>
+          <li>FrontEnd Dev</li>
+          <li>Founder Serenity Mosaic</li>
         </ul>
       ),
     },
@@ -38,7 +38,7 @@ const TAB_DATA = [
           <li>Airdrop Hunter</li>
           <li>Node Runner</li>
           <li>Art Ilustrator</li>
-          <li>Music</li>
+          <li>Coder</li>
 
         </ul>
       )
