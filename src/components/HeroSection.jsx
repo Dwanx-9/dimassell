@@ -16,16 +16,16 @@ const HeroSection = () => {
           <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
           <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold '>
           <span className='text-transparent bg-clip-text bg-gradient-to-br from-primary-500 to-secondary-500'>
-                Hello,Im {" "}</span>
+                Hello,Call Me {" "}</span>
             <TypeAnimation
              sequence={[
               'Dimas',
                 1500,
-               'Full Stack Developer',
+               'Social Media Specialist',
                  1000,
-                'Web3 Developer',
+                'Community Manager',
                 1000,
-                'Node Validator',
+                'Framework',
                  1000
                  ]}
                 wrapper="span"
@@ -34,10 +34,10 @@ const HeroSection = () => {
                  </h1>
                  
           <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl text-gradient-to-br from-primary-500 to-secondary-500'>
-            Selamat Berkunjung di Dunia tipu-tipu, Ini Website bukan Keset😜 
+            Hey there , Welcome to Dimassell Space 🪐
             </p>
           <p className='text-green-200 text-base sm:text-lg lg:text-xl md:animate-pulse'>
-           Service ONLINE 🟢
+           ONLINE 🟢
             </p>
       <div>
 
@@ -47,7 +47,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
           <Link
-              href="/"
+              href="/documents/portofolio.pdf" download={true}
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
               <span className="block text-primary-500 bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
