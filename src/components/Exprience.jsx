@@ -5,25 +5,26 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
     {
-      title: "Nindsean Land",
-      id: "nindsean",
+      title: "Personal Skill",
+      id: "bot",
       content: (
         <ul className="list-disc pl-2">
-          <li>Welcome to the Universe of NinDsean Land</li>
-          <li>Why NinDsean</li>
-          <li>A total of 4,320 Lands will be Minted. 
-                Calling all explorers of the universe in the Web3 world.
+          <li>CREATE A DATA BASE FRAMEWORK With JavaScript </li>
+          <li>Connect BOT to Data Base</li>
+          <li>I have an idea to build a data framework using spreed sheet, 
+              then connect it with BOT telegram using Java Script (JS) 
+              programming language to monitor data data cooperation with the project.
         </li>
         </ul>
       ),
     },
     {
-      title: "Web3 Land",
-      id: "web3",
+      title: "Personal Skill",
+      id: "writing",
       content: (
         <ul className="list-disc pl-2">
-          <li>Web3 is the third generation of internet networks where users and applications are connected in a decentralized ecosystem.</li>
-          <li>The characteristics of Web3 are trustless and permissionless, self-governance, and data ownership.</li>
+          <li>ARTICLE WRITING POST.</li>
+          <li>Create interesting article content about the development of blockchain technology, update crypto currency market news and analyze the hype content.</li>
         </ul>
       )
     },
@@ -31,7 +32,7 @@ const TAB_DATA = [
 
 
 const Exprience = () => { 
-  const [tab, setTab] = useState("nindsean");
+  const [tab, setTab] = useState("bot");
   const [isPending, startTransition] = useTransition()  
 
   const handleTabChange = (id) => {
@@ -51,22 +52,22 @@ const Exprience = () => {
                      I started studying Web3 technology , Solidty, JS, Python, and started focusing on development in the crypto community, 
                      I am very enthusiastic about crypto & Web3 .
                  </p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                
             <div className="flex flex-row justify-start mt-9">
                 <TabButton 
                 selecTab={() => handleTabChange("nindsean")} 
-                active={tab === "nindsean"}
+                active={tab === "bot"}
                 >
                     {""}
-                    NinDsean Land{""}
+                    Connect BOT{""}
                 </TabButton>    
 
                 <TabButton 
                 selecTab={() => handleTabChange("web3")} 
-                active={tab === "web3"}
+                active={tab === "writing"}
                 >
                     {""}
-                    Web3 Land{""}
+                    Writing Article{""}
                 </TabButton>
                
               
