@@ -9,11 +9,11 @@ const TAB_DATA = [
       id: "skills",
       content: (
         <ul className="list-disc pl-2">
-          <li>Node.js</li>
-          <li>Python</li>
-          <li>TypeScript</li>
+          <li>Build Community</li>
+          <li>Campaign Planner</li>
+          <li>Content Writing</li>
           <li>JavaScript</li>
-          <li>React</li>
+          <li>React/Next.Js</li>
           <li>Solidity (Learning)</li>
         </ul>
       ),
@@ -23,9 +23,9 @@ const TAB_DATA = [
       id: "exprience",
       content: (
         <ul className="list-disc pl-2">
-          <li>Full-stack</li>
           <li>Social Media Specialist</li>
-          <li>University of California</li>
+          <li>Community Manager</li>
+          <li>Back-End Dev</li>
         </ul>
       ),
     },
@@ -38,7 +38,7 @@ const TAB_DATA = [
           <li>Airdrop Hunter</li>
           <li>Node Runner</li>
           <li>Art Ilustrator</li>
-          <li>Music</li>
+          <li>Coder</li>
 
         </ul>
       )
