@@ -6,7 +6,7 @@ export const FooterSection = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-1 md:mb-0">
               <a href="https://dimassell.vercel.app/" class="flex items-center mb-6">
-                  <img src="https://i.gifer.com/Qaf1.gif" class="h-8 mr-3" alt="dx-1 Logo" />
+                  <img src="https://i.gifer.com/fxVE.gif" class="h-8 mr-3" alt="dx-1 Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-primary ">DX-1Node</span>
               </a>
           </div>
