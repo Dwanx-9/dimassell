@@ -14,7 +14,7 @@ import { FooterSection } from '@/components/FooterSection';
 
 export default function Home() {
   return (
-    <main className="bg-black scroll-smooth focus:scroll-auto">
+    <main className="flex min-h-screen flex-col bg-black scroll-smooth focus:scroll-auto">
       <div>
       <Navbar />
       <SplineAnimation />
