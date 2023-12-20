@@ -8,7 +8,7 @@ import Image from "next/image";
 const ProjectsData = [
     {
         id: 1,
-        title: "React / Next.js Website",
+        title: "React / Next.js",
         description: "Lets Build Your Website with Next.js",
         image: "/image/project/next.png",
         tag: ["All", "Web"],
@@ -18,7 +18,7 @@ const ProjectsData = [
     {
         id: 2,
         title: "Creat Your Bot",
-        description: "Request Your description BOT",
+        description: "Creat BOT , Request Your description BOT",
         image: "/image/project/8.gif",
         tag: ["All", "Web"],
         gitUrl: "/",
@@ -36,7 +36,7 @@ const ProjectsData = [
     {
         id: 4,
         title: "Other Website",
-        description: "Creat your website , add description in form",
+        description: "Creat your website , add description in form your plan Website",
         image: "/image/project/9.gif",
         tag: ["All", "Web"],
         gitUrl: "/",
@@ -53,8 +53,8 @@ const ProjectsData = [
     },
     {
         id: 6,
-        title: "Land NFT",
-        description: "4,320 Minted",
+        title: "Content Writing",
+        description: "Generate Content Writing Like News,Insight,Airdrop Campaign",
         image: "/image/project/5.gif",
         tag: ["All", "Web"],
         gitUrl: "/",
