@@ -5,7 +5,7 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
     {
-      title: "Personal Skill",
+      title: "Connect Bot",
       id: "bot",
       content: (
         <ul className="list-disc pl-2">
@@ -55,7 +55,7 @@ const Exprience = () => {
                 
             <div className="flex flex-row justify-start mt-9">
                 <TabButton 
-                selecTab={() => handleTabChange("nindsean")} 
+                selecTab={() => handleTabChange("bot")} 
                 active={tab === "bot"}
                 >
                     {""}
@@ -63,7 +63,7 @@ const Exprience = () => {
                 </TabButton>    
 
                 <TabButton 
-                selecTab={() => handleTabChange("web3")} 
+                selecTab={() => handleTabChange("writing")} 
                 active={tab === "writing"}
                 >
                     {""}
