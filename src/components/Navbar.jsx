@@ -45,7 +45,7 @@ const Navbar = () => {
                             >
                                 <XMarkIcon className='h-5 w-5'/>
                             </button>
-                        )};
+                        )}
                         
                 </div> 
             <div className='menu hidden block md:w-auto' id="navbar">
