@@ -5,7 +5,7 @@ const SplineAnimation = () => {
   return (
 
     // <Spline scene="https://prod.spline.design/u9vxsHGKnJqRgSov/scene.splinecode" />
-     <Spline scene="https://prod.spline.design/lcgExCS7JMXM2SZg/scene.splinecode" />
+     <Spline scene="https://prod.spline.design/5AKu7BTV8Kle-yiz/scene.splinecode" />
     // <Spline scene="https://prod.spline.design/zRHXTS2YCyVpLuXe/scene.splinecode" />
   
 
