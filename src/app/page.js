@@ -6,7 +6,6 @@ import Project from '@/components/ProjectsSection';
 import EmailSection from '@/components/EmailSection';
 import Footer from '@/components/Footer';
 import AchievementsSection from '@/components/AchievementsSection';
-// import SplineAnimation from '@/components/SplineAnimation';
 import VideoSection from "@/components/VideoSection";
 import Exprience from '@/components/Exprience';
 import ProfileSection from '@/components/ProfileSection';
@@ -18,7 +17,6 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-black scroll-smooth focus:scroll-auto">
       <div>
       <Navbar />
-      // <SplineAnimation />
       <VideoSection />
       
       </div>
