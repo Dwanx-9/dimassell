@@ -4,7 +4,8 @@ import Spline from '@splinetool/react-spline';
 const SplineAnimation = () => {
   return (
 
-    <Spline scene="https://prod.spline.design/u9vxsHGKnJqRgSov/scene.splinecode" />
+    // <Spline scene="https://prod.spline.design/u9vxsHGKnJqRgSov/scene.splinecode" />
+    <Spline scene="https://prod.spline.design/7vXHDZjsNGXZkuoY/scene.splinecode" />
 
     // <Spline scene="https://prod.spline.design/zRHXTS2YCyVpLuXe/scene.splinecode" />
   
