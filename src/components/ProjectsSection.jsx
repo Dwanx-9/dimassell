@@ -40,7 +40,7 @@ const ProjectsData = [
         image: "/image/project/11.png",
         tag: ["All", "Web"],
         gitUrl: "/about",
-        previewUrl: "/about",
+        previewUrl: "#about",
     },
     {
         id: 5,
