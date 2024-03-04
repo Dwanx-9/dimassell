@@ -46,6 +46,9 @@ export const FooterSection = () => {
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
                       </li>
+                       <li class="mb-4">
+                          <a href="https://dx1node.gitbook.io/dx-1node" class="hover:underline">Docs</a>
+                      </li>
                       <li>
                           <a href="#" class="hover:underline">Terms &amp; Conditions</a>
                       </li>

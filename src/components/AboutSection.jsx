@@ -23,9 +23,9 @@ const TAB_DATA = [
       id: "exprience",
       content: (
         <ul className="list-disc pl-2">
-          <li>Full-stack</li>
           <li>Social Media Specialist</li>
-          <li>University of California</li>
+          <li>FrontEnd Dev</li>
+          <li>Founder Serenity Mosaic</li>
         </ul>
       ),
     },
@@ -38,7 +38,7 @@ const TAB_DATA = [
           <li>Airdrop Hunter</li>
           <li>Node Runner</li>
           <li>Art Ilustrator</li>
-          <li>Music</li>
+          <li>Coder</li>
 
         </ul>
       )
@@ -61,7 +61,7 @@ const AboutSection = () => {
 
      <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 justify-self-end py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/image/Bot.png" type="image/webp" alt="png" width={500} height={500} className="md:animate-pulse float-left "></Image>
+        <Image src="/image/hero.png" type="image/webp" alt="png" width={500} height={500} className="md:animate-pulse float-left "></Image>
         <div className="mt-4 md:mt-0 text-left justify-items-center flex-cols-2 h-full">
         <div className="border-b-2 border-primary-500/50 ">
           <h2 className="text-4xl font-bold text-center text-primary-500 mb-3">About Me</h2>
